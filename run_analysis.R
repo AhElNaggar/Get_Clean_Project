@@ -2,10 +2,10 @@
 #from the accelerometers from the Samsung Galaxy S smartphone
 
 ##download zip file containing dataset
-#download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile = "original file.zip")
+download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile = "original file.zip")
 
 ##unzip dowloaded file
-#unzip(zipfile = "original file.zip")
+unzip(zipfile = "original file.zip")
 
 ##set working directory
 
