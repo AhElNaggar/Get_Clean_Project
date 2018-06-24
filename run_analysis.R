@@ -61,5 +61,5 @@ for (i in 1:30){
 z <- cbind("SubjectID" = rep(1:30,each = 6), "Activity" = s1, z)
 colnames(z) <- colnames(mean_std_t)
 
-
-
+##create the summary table
+write.table(z,row.names = FALSE, file = "UCI Summary.txt")
